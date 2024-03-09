@@ -6,8 +6,8 @@ RSpec.describe Vinyl, type: :model do
     it "returns a distinct list of artists alphabetically" do
       alphabetized_artists = Vinyl.alphabetized_artists
 
-      expect(alphabetized_artists.first.name).to eq("10cc")
-      expect(alphabetized_artists.last.name).to eq("Zevon")
+      expect(alphabetized_artists.first.last_name).to eq("10cc")
+      expect(alphabetized_artists.last.last_name).to eq("Zevon")
     end
   end
 end
