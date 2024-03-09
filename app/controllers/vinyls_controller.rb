@@ -4,6 +4,6 @@ class VinylsController < ApplicationController
   end
 
   def show
-    @vinyl = Vinyl.find_by(params[:id])
+    @vinyl = Vinyl.find_by(last_name: params[:last_name])
   end
 end

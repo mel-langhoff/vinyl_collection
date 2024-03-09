@@ -2,6 +2,6 @@
 
 <ul>
   <% @vinyls.each do |vinyl| %>
-    <li><%= link_to ""#{vinyl.first_name}" "{#vinyl.last_name}"", "/vinyls/#{vinyl.id}" %></li>
+    <li><%= link_to "#{vinyl.first_name}" "{#vinyl.last_name}", "/vinyls/#{vinyl.last_name}" %></li>
   <% end %>
 </ul>
