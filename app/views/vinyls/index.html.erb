@@ -2,6 +2,14 @@
 
 <ul>
   <% @vinyls.each do |vinyl| %>
-    <li><%= link_to "#{vinyl.first_name}" "{#vinyl.last_name}", "/vinyls/#{vinyl.last_name}" %></li>
+    <div id="vinyl_<%= vinyl.id %>">
+      <li>
+        <% if vinyl.first_name.nil? || vinyl.first_name == "NULL" %>
+          <%= link_to vinyl.last_name, "/vinyls/#{vinyl.last_name}" %>
+        <% else %>
+          <%= link_to "#{vinyl.first_name} #{vinyl.last_name}", "/vinyls/#{vinyl.last_name}" %>
+        <% end %>
+      </li>
+    </div>
   <% end %>
 </ul>

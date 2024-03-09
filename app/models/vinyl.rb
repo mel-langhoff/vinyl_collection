@@ -1,6 +1,6 @@
 class Vinyl < ApplicationRecord
   def self.alphabetized_artists
-    order(:last_name).distinct
+    select(:last_name).distinct.order(:last_name)
   end
 end
 

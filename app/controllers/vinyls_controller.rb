@@ -1,6 +1,6 @@
 class VinylsController < ApplicationController
   def index
-    @vinyls = Vinyl.alphabetized_artists
+    @vinyls = Vinyl.all
   end
 
   def show
