@@ -2,15 +2,12 @@ require 'rails_helper'
 
 RSpec.describe Vinyl, type: :model do
   before(:all) do
-    # Custom data setup
     @vinyls = [
       { id: 1, first_name: 'John', last_name: 'Lennon', album_title: 'Imagine', notes: 'Classic album' },
       { id: 2, first_name: 'Paul', last_name: 'McCartney', album_title: 'Band on the Run', notes: 'Another classic album' },
-      { id: 2, first_name: 'Frank', last_name: 'Zappa', album_title: 'Overnite Sensation', notes: 'Yet another classic album' },
-      # Add more sample data as needed
+      { id: 3, first_name: 'Frank', last_name: 'Zappa', album_title: 'Overnite Sensation', notes: 'Yet another classic album' },
     ]
 
-    # Create Vinyl records using custom data
     @vinyls.each do |vinyl_data|
       Vinyl.create!(
         first_name: vinyl_data[:first_name],

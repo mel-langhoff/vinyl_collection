@@ -9,3 +9,5 @@ CSV.foreach(Rails.root.join('db', 'data', 'vinyls.csv'), headers: true) do |row|
     notes: row['notes']
   )
 end
+
+# is this for testing or just data loading?

@@ -1,6 +1,6 @@
 class VinylsController < ApplicationController
   def index
-    @vinyls = Vinyl.all
+    @vinyls = Vinyl.all.order(:last_name).distinct
   end
 
   def show

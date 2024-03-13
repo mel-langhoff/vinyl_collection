@@ -4,7 +4,7 @@
   <% @vinyls.each do |vinyl| %>
     <div id="vinyl_<%= vinyl.id %>">
       <li>
-        <% if vinyl.first_name.nil? || vinyl.first_name == "NULL" %>
+        <% if vinyl.first_name.nil? %>
           <%= link_to vinyl.last_name, "/vinyls/#{vinyl.last_name}" %>
         <% else %>
           <%= link_to "#{vinyl.first_name} #{vinyl.last_name}", "/vinyls/#{vinyl.last_name}" %>
