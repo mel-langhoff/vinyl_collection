@@ -6,6 +6,7 @@ As a user
 When I visit the vinyls index page
 Then I see a unique list of all artists with
 And I see a link to view all albums next to each artist
+--will have to fix the order
 
 ### User Story 2
 
