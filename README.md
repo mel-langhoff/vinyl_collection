@@ -5,8 +5,8 @@ This is a database of my vinyl collection.
 As a user
 When I visit the vinyls index page
 Then I see a unique list of all artists with
-And I see a link to view all albums next to each artist
---will have to fix the order
+And I see a link to view the artist show page
+
 
 ### User Story 2
 

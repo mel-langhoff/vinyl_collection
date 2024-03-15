@@ -1,0 +1,8 @@
+<h1>Vinyls by Artist</h1>
+
+<ul>
+  <% @artists.each do |artist| %>
+    <li>
+      <%= link_to artist.name, artist_vinyls_path(artist) %>
+    </li>
+</ul>
