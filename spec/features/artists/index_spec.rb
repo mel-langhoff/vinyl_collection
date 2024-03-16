@@ -6,7 +6,7 @@ RSpec.describe 'Artist Index Page', type: :feature do
     artist2 = Artist.create(name: 'Bob Dylan')
     artist3 = Artist.create(name: 'The Rolling Stones')
 
-    visit root_path
+    visit "/"
 
     expect(artist1.name).to appear_before(artist2.name)
     expect(artist2.name).to appear_before(artist3.name)
@@ -17,7 +17,7 @@ RSpec.describe 'Artist Index Page', type: :feature do
   it 'has a link to each artist show page' do
     artist1 = Artist.create(name: 'The Beatles')
 
-    visit root_path
+    visit "/"
 
     expect(page).to have_link('The Beatles')
 

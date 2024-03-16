@@ -7,6 +7,8 @@ RSpec.describe 'Album Index Page', type: :feature do
     rubber_soul = Album.create(title: 'Rubber Soul', artist: beatles)
     abbey_road = Album.create(title: 'Abbey Road', artist: beatles)
 
+    visit "/albums"
+    
     expect(page).to have_content('Help')
     expect(page).to have_content('Abbey Road')
     expect(page).to have_content('Rubber Soul')

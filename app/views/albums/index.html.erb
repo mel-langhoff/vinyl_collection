@@ -3,7 +3,7 @@
 <ul>
   <% @albums.each do |album| %>
     <li>
-      <%= album.title %> by <%= album.artist %>
+      <%= album.title %> by <%= album.artist.name %>
     </li>
   <% end %>
 </ul>
