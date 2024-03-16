@@ -1,0 +1,7 @@
+<h1><%= "#{@artist.name}" %>'s Albums</h1>
+
+<ol>
+  <% @artist.albums.each do |album| %>
+    <li><%= album.name %></li>
+  <% end %>
+</ol>

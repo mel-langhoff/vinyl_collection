@@ -14,7 +14,7 @@
       <img src="./assets/0.12.3/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" class="hide">
-      <div class="timestamp">Generated <abbr class="timeago" title="2024-03-15T17:26:21-06:00">2024-03-15T17:26:21-06:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2024-03-15T18:07:39-06:00">2024-03-15T18:07:39-06:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -95,7 +95,7 @@
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#d8d98e400d3ddfded0c1e1a52b17e40ba990e27a" class="src_link" title="app/models/artist.rb">app/models/artist.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
-            <td class="cell--number">7</td>
+            <td class="cell--number">12</td>
             <td class="cell--number">4</td>
             <td class="cell--number">4</td>
             <td class="cell--number">0</td>
@@ -330,24 +330,24 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="4">
-            <span class="hits">1</span>
+          <li class="never" data-hits="" data-linenumber="4">
+            
             
 
             
 
-            <code class="ruby">  def self.sort_alphabetically</code>
+            <code class="ruby">  # def self.sort_alphabetically</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="5">
-            <span class="hits">1</span>
+          <li class="never" data-hits="" data-linenumber="5">
+            
             
 
             
 
-            <code class="ruby">    order(Arel.sql(&quot;CASE WHEN name LIKE &#39;The %&#39; THEN SUBSTRING(name FROM 5) ELSE name END&quot;))</code>
+            <code class="ruby">  #   order(Arel.sql(&quot;CASE WHEN name LIKE &#39;The %&#39; THEN SUBSTRING(name FROM 5) ELSE name END&quot;))</code>
           </li>
         </div>
       
@@ -358,12 +358,67 @@
 
             
 
-            <code class="ruby">  end</code>
+            <code class="ruby">  # end</code>
           </li>
         </div>
       
         <div>
           <li class="never" data-hits="" data-linenumber="7">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="8">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  def self.sort_alphabetically</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="9">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    order(Arel.sql(&quot;CASE WHEN array_length(string_to_array(name, &#39; &#39;), 1) &gt; 1 THEN SPLIT_PART(name, &#39; &#39;, array_length(string_to_array(name, &#39; &#39;), 1)) ELSE name END&quot;))</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="10">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="11">
+            
+            
+
+            
+
+            <code class="ruby">  </code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="12">
             
             
 
