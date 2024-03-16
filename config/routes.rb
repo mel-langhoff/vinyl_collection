@@ -12,7 +12,11 @@ Rails.application.routes.draw do
       get :search, to: "artists#search"
     end
   end
-  resources :albums, only: [:index]
+  resources :albums, only: [:index] do
+    collection do
+      get :search, to: "albums#search"
+    end
+  end
 
   # root "artists#index"
 end

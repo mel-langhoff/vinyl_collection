@@ -35,10 +35,25 @@ RSpec.describe 'Artist Index Page', type: :feature do
 
     expect(page).to have_button('Search')
 
-    fill_in 'Enter an artist name', with: 'The Beatles'
+    fill_in 'Enter an artist name', with: 'The bea'
     click_button 'Search'
 
     expect(page).to have_content('The Beatles')
     expect(page).to_not have_content('Bob Dylan')
+  end
+
+  it 'returns a no albums found message when no results' do
+    artist1 = Artist.create(name: 'The Beatles')
+    artist2 = Artist.create(name: 'Bob Dylan')
+    artist3 = Artist.create(name: 'The Rolling Stones')
+
+    visit "/"
+
+    expect(page).to have_button('Search')
+
+    fill_in 'Enter an artist name', with: 'abcdefg'
+    click_button 'Search'
+
+    expect(page).to have_content('No artists found.')
   end
 end
