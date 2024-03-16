@@ -1,38 +1,66 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/mel/rails_projects/VinylCollection/app/models/album.rb": {
+      "/Users/mel/rails_projects/VinylCollection/spec/features/artists/show_spec.rb": {
         "lines": [
           1,
+          null,
           1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          0,
+          0,
+          0,
+          null,
           null
         ]
       },
-      "/Users/mel/rails_projects/VinylCollection/app/models/application_record.rb": {
-        "lines": [
-          1,
-          1,
-          null
-        ]
-      },
-      "/Users/mel/rails_projects/VinylCollection/spec/models/artist_spec.rb": {
+      "/Users/mel/rails_projects/VinylCollection/spec/features/vinyls/index_spec.rb": {
         "lines": [
           1,
           null,
           1,
-          null,
-          1,
-          2,
-          null,
-          null,
-          1,
-          1,
-          1,
           1,
           null,
           1,
           null,
+          null,
+          null,
+          null,
           1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          0,
+          null,
+          0,
+          0,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          0,
+          0,
+          null,
           null,
           null
         ]
@@ -46,48 +74,59 @@
           null,
           null,
           null,
-          1,
-          1,
           null,
+          1,
+          2,
           null,
           null
         ]
       },
-      "/Users/mel/rails_projects/VinylCollection/spec/models/vinyl_spec.rb": {
+      "/Users/mel/rails_projects/VinylCollection/app/models/application_record.rb": {
         "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/mel/rails_projects/VinylCollection/app/controllers/artists_controller.rb": {
+        "lines": [
+          1,
+          1,
+          2,
           null,
           null,
+          1,
+          1,
           null,
+          null
+        ]
+      },
+      "/Users/mel/rails_projects/VinylCollection/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/mel/rails_projects/VinylCollection/app/models/album.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/mel/rails_projects/VinylCollection/app/models/vinyl.rb": {
+        "lines": [
+          1,
+          1,
           null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
+          1,
+          0,
           null,
           null,
           null
         ]
       }
     },
-    "timestamp": 1710547659
+    "timestamp": 1710553507
   }
 }

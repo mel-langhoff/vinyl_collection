@@ -19,7 +19,7 @@ And the page will display the results or provide an error
 ### User Story 3
 
 As a user
-When I visit the vinyls index page
+When I visit the artists index page
 Then I click an artist to see their show page
 And I see on the artist show page a list of all their albums
 

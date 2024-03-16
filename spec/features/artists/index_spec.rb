@@ -23,6 +23,6 @@ RSpec.describe 'Artist Index Page', type: :feature do
 
     click_on "The Beatles"
 
-    expect(current_path).to eq("artists/#{artist1.id}")
+    expect(current_path).to eq("/artists/#{artist1.id}")
   end
 end
