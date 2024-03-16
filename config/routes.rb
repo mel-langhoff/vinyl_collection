@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   get "/", to: "artists#index"
 
   resources :artists, only: [:index, :show]
+  resources :albums, only: [:index]
 
   # root "artists#index"
 end

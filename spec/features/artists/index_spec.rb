@@ -25,4 +25,12 @@ RSpec.describe 'Artist Index Page', type: :feature do
 
     expect(current_path).to eq("/artists/#{artist1.id}")
   end
+
+  it 'has a search box to search by artist' do
+
+  end
+
+  it 'has a search box to search by album' do
+    
+  end
 end
