@@ -12,7 +12,7 @@ And I see a link to view the artist show page
 
 As a user
 When I visit the vinyls index page
-Then I see a form to query, by artist or by album, if a record exists in the collection
+Then I see a form to query by artist if a record exists in the collection
 Then I enter the search
 And the page will display the results or provide an error
 

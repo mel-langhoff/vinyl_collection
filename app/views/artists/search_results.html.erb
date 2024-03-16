@@ -1,0 +1,10 @@
+<h1>Search Results</h1>
+<% if @search_results.any? %>
+  <ul>
+    <% @search_results.each do |artist| %>
+      <li><%= artist.name %></li>
+    <% end %>
+  </ul>
+<% else %>
+  <p>No artists found.</p>
+<% end %>

@@ -27,10 +27,18 @@ RSpec.describe 'Artist Index Page', type: :feature do
   end
 
   it 'has a search box to search by artist' do
+    artist1 = Artist.create(name: 'The Beatles')
+    artist2 = Artist.create(name: 'Bob Dylan')
+    artist3 = Artist.create(name: 'The Rolling Stones')
 
-  end
+    visit "/"
 
-  it 'has a search box to search by album' do
-    
+    expect(page).to have_button('Search')
+
+    fill_in 'Enter an artist name', with: 'The Beatles'
+    click_button 'Search'
+
+    expect(page).to have_content('The Beatles')
+    expect(page).to_not have_content('Bob Dylan')
   end
 end
