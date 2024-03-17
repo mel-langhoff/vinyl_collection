@@ -14,7 +14,7 @@ title,notes,artist_id
 "Debussy: Images","",6
 "Jump Back (Set Me Free)","",7
 "Volcano","",8
-"Chicken Crystal Silence","",9
+"Chicken,Crystal Silence","",9
 "Panorama","",10
 "Shake It Up","",10
 "The Cars","",10
@@ -26,12 +26,9 @@ title,notes,artist_id
 "Living Room Suite","",12
 "Verities & Balderdash","",12
 "Legends of the Lost and Found","",12
-"Living Room Suite","Duplicate copy",12
 "Portrait Gallery","",12
-"Verities & Balderdash","Duplicate copy",12
 "Sniper and Other Love Songs","",12
 "Dance Band on the Titanic","",12
-"Greatest Stories Live","Duplicate copy",12
 "Sequel","",12
 "Guitar Monsters","",13
 "Chester & Lester","",13
@@ -53,173 +50,225 @@ title,notes,artist_id
 "Brothers in Arms","",26
 "Making Movies","",26
 "2001","",27
-"The Chronic","",28
-"I Am","",29
-"Fixation","",30
-"Kabuki & Other Traditional Music","",31
-"The Earth Is Not a Cold Dead Place","",32
-"Fleetwood Mac","",33
-"Rumours","",33
-"Fate for Breakfast","",34
-"Closer To Home","",35
-"We're An American Band","",35
-"Grand Funk","",35
-"On Time","",35
-"Satin Doll","",36
-"The Queen Elizabeth Hall London","",36
-"Europe '72","",37
-"Hot Dawg","",38
-"Quintet '80","",38
-"Concierto","",39
-"Tous Les Garcons et Les Filles","",40
-"Midnight Lightning","",41
-"Axis: Bold as Love","",41
-"Crash Landing","",41
-"The Essential Jimi Hendrix","",41
-"Electric Ladyland","",41
-"It Happened One Bite","",42
-"Music to be Murdered By","",43
-"Solitude","",44
-"If","",45
-"Myths, Lies, and Hypocrites","",46
-"Sonatas for Violin & Piano","",47
-"Blow Your Face Out","",48
-"Everything In Transit","",49
-"Look Sharp","",50
-"The Koln Concert","",51
-"Living in the Past","",52
-"Songs from the Wood","",52
-"Aqualung","",52
-"Thick as a Brick","",52
-"A Passion Play","",52
-"Stand Up","",52
-"This Was","",52
-"Benefit","",52
-"Rickie Lee Jones","",53
-"Pirates","",53
-"Live in Las Vegas","",54
-"Greatest Hits","",55
-"O.N.I.F.C.","",56
-"1977 State Fair","",57
-"1980 State Fair","",57
-"The Immortal","",58
-"Get the Knack","",59
-"Local Hero","",60
-"Autobahn","",61
-"House of the Holy","",62
-"Led Zeppelin III","",62
-"Led Zeppelin","",62
-"Physical Graffiti","",62
-"Led Zeppelin II","",62
-"Feats Don't Fail Me Now","",63
-"Let It Roll","",63
-"The Last Record Album","",63
-"Waiting for Columbus","",63
-"Down on the Farm","",63
-"The Lonely Bull","",64
-"Champagne","",65
-"Blood Mountain","",66
-"Blue","",67
-"Court and Spark","",67
-"Miles of Aisles","",67
-"Every Good Boy Deserves Favour","",68
-"On the Threshold of a Dream","",68
-"Greatest Hits","",69
-"Love Dog","",70
-"Chopin: The Complete Nocturnes","",71
-"The Very Best of Roy Orbison","",72
-"Aquemini","",73
-"Comin' At Ya","",74
-"Satch and Josh…. Again","",75
-"Satch and Josh","",75
-"The Wall","",76
-"Animals","",76
-"Dark Side of the Moon","",76
-"Poco Cantamos","",77
-"Synchronicity","",78
-"Reggatta de Blanc","",78
-"Chopin: Etudes OP. 10 & OP. 25","",79
-"Chopin: 24 Preludes OP. 28","",79
-"Pretenders II","",80
-"Floating Petals…","",81
-"Happy Trails","",82
-"Pablo Honey","",83
-"Classics","",84
-"LP4","",84
-"Ratatat","",84
-"Magnifique","",84
-"Merchants Lunch","",85
-"Novella","",86
-"Rootboy Slim & the Sex ChangeBand with The Rootettes","",87
-"Zoom","",87
-"The Brahms I Love","",88
-"Chopin: The Mazurkas","",88
-"Choping Sonatas","",88
-"Moonlight Sonata","",88
-"Santana","",89
-"Peter Serkin Plays Chopin","",90
-"Music","",91
-"1000 Forms of Fear","",91
-"Bridge Over Troubled Water","",92
-"Parsley, Sage, Rosemary, and Thyme","",92
-"Still Crazy After All These Years","",93
-"There Goes Rhymin' Simon","",93
-"Louder Than Bombs","",94
-"The Family That Plays Together","",95
-"Gaucho","",96
+"The Chronic","",27
+"I Am","",28
+"Fixation","",29
+"Kabuki & Other Traditional Music","",30
+"The Earth Is Not a Cold Dead Place","",31
+"Fleetwood Mac","",32
+"Rumours","",32
+"Fate for Breakfast","",33
+"Closer To Home","",34
+"We're An American Band","",34
+"Grand Funk","",34
+"On Time","",34
+"Satin Doll","",35
+"The Queen Elizabeth Hall London","",35
+"Europe '72","",36
+"Hot Dawg","",37
+"Quintet '80","",37
+"Concierto","",38
+"Tous Les Garcons et Les Filles","",39
+"Midnight Lightning","",40
+"Axis: Bold as Love","",40
+"Crash Landing","",40
+"The Essential Jimi Hendrix","",40
+"Electric Ladyland","",40
+"It Happened One Bite","",41
+"Music to be Murdered By","",42
+"Solitude","",43
+"If","",44
+"Myths, Lies, and Hypocrites","",45
+"Sonatas for Violin & Piano","",46
+"Blow Your Face Out","",47
+"Everything In Transit","",48
+"Look Sharp","",49
+"The Koln Concert","",50
+"Living in the Past","",51
+"Songs from the Wood","",51
+"Aqualung","",51
+"Thick as a Brick","",51
+"A Passion Play","",51
+"Stand Up","",51
+"This Was","",51
+"Benefit","",51
+"Rickie Lee Jones","",52
+"Pirates","",52
+"Live in Las Vegas","",53
+"Greatest Hits","",54
+"O.N.I.F.C.","",55
+"1977 State Fair","",56
+"1980 State Fair","",56
+"The Immortal","",57
+"Get the Knack","",58
+"Local Hero","",59
+"Autobahn","",60
+"House of the Holy","",61
+"Led Zeppelin III","",61
+"Led Zeppelin","",61
+"Physical Graffiti","",61
+"Led Zeppelin II","",61
+"Feats Don't Fail Me Now","",62
+"Let It Roll","",62
+"The Last Record Album","",62
+"Waiting for Columbus","",62
+"Down on the Farm","",62
+"The Lonely Bull","",63
+"Champagne","",64
+"Blood Mountain","",65
+"Blue","",66
+"Court and Spark","",66
+"Miles of Aisles","",66
+"Every Good Boy Deserves Favour","",67
+"On the Threshold of a Dream","",67
+"Greatest Hits","",68
+"Love Dog","",69
+"Chopin: The Complete Nocturnes","",70
+"The Very Best of Roy Orbison","",71
+"Aquemini","",72
+"Comin' At Ya","",73
+"Satch and Josh…. Again","",74
+"Satch and Josh","",74
+"The Wall","",75
+"Animals","",75
+"Dark Side of the Moon","",75
+"Poco Cantamos","",76
+"Synchronicity","",77
+"Reggatta de Blanc","",77
+"Chopin: Etudes OP. 10 & OP. 25","",78
+"Chopin: 24 Preludes OP. 28","",78
+"Pretenders II","",79
+"Floating Petals…","",80
+"Happy Trails","",81
+"Pablo Honey","",82
+"Classics","",83
+"LP4","",83
+"Ratatat","",83
+"Magnifique","",83
+"Merchants Lunch","",84
+"Novella","",85
+"Rootboy Slim & the Sex ChangeBand with The Rootettes","",86
+"Zoom","",86
+"The Brahms I Love","",87
+"Chopin: The Mazurkas","",87
+"Choping Sonatas","",87
+"Moonlight Sonata","",87
+"Santana","",88
+"Peter Serkin Plays Chopin","",89
+"Music","",90
+"1000 Forms of Fear","",90
+"Bridge Over Troubled Water","",91
+"Parsley, Sage, Rosemary, and Thyme","",91
+"Still Crazy After All These Years","",92
+"There Goes Rhymin' Simon","",92
+"Louder Than Bombs","",93
+"The Family That Plays Together","",94
+"Gaucho","",95
+"Katy Lied","",95
+"Aja","",95
+"Greatest Hits","",95
+title,notes,artist_id
 "Greatest Hits","",96
-"Katy Lied","",96
-"Aja","",96
-"Greatest Hits","",97
-"Foreigner","",97
-"Currents","",98
-"At the Candlelight Café","",99
-"Best of Traffic","",100
-"John Barleycorn Must Die","",100
-"Happy Together","",101
-"The Greatest Jazz Concert in the World","",102
-"Dances of the Renaissance","",103
-"Gothic and Renaissance Dances","",103
-"West Side Story Soundtrack","",104
-"20 Rockin' Originals","",105
-"West Side Story Movie Soundtrack","",106
-"The Sound of Music Soundtrack","",107
-"Bach: The Complete Flute Sonatas","",108
-"Small Change","",109
-"Nighthawks at the Diner","",109
-"Who's Next","",110
-"Vaughan Williams Concert","",111
-"In 3-D","",112
-"Hot Rats","",113
-"The Grand Wazoo","",113
-"Overnite Sensation","Duplicate copy",113
-"Lumpy Gravy","",113
-"The Grand Wazoo","Duplicate copy",113
-"Waka/Jawaka","",113
-"In New York","",113
-"You Are What You Is","",113
-"Bongo Fury","",113
-"The Man From Utopia","",113
-"Burnt Weeny Sandwich","",113
-"One Size Fits All","",113
-"Chunga's Revenge","",113
-"Freak Out!","",113
-"200 Motels","Bootleg",113
-"Uncle Meat","",113
-"Zoot Allures","",113
-"Roxy & Elsewhere","",113
-"Joe's Garage Act I","",113
-"Just Another Band From L.A.","",113
-"We're Only In It For the Money","",113
-"Apostrophe","",113
-"Fillmore East / June 1971","",113
-"Sleep Dirt","",113
-"Sheik Yerbouti","",113
-"Orchestral Favorites","",113
-"Weasels Ripped My Flesh","",113
-"Joe's Garage Acts II & III","",113
-"Studio Tan","",113
-"Absolutely Free","",113
-"200 Motels","",113
-"Excitable Boy","",114
-"Bad Luck Streak in Dancing School","",114
+"Foreigner","",96
+"Currents","",97
+"At the Candlelight Café","",98
+"Best of Traffic","",99
+"John Barleycorn Must Die","",99
+"Happy Together","",100
+"The Greatest Jazz Concert in the World","",101
+"Dances of the Renaissance","",101
+"Gothic and Renaissance Dances","",101
+"West Side Story Soundtrack","",101
+"20 Rockin' Originals","",101
+"West Side Story Movie Soundtrack","",101
+"The Sound of Music Soundtrack","",101
+"Bach: The Complete Flute Sonatas","",101
+"Small Change","",102
+"Nighthawks at the Diner","",102
+"Who's Next","",103
+"Vaughan Williams Concert","",104
+"In 3-D","",105
+"Hot Rats","",106
+"The Grand Wazoo","",106
+"Overnite Sensation","",106
+"Lumpy Gravy","",106
+"Waka/Jawaka","",106
+"In New York","",106
+"You Are What You Is","",106
+"Bongo Fury","",106
+"The Man From Utopia","",106
+"Burnt Weeny Sandwich","",106
+"One Size Fits All","",106
+"Chunga's Revenge","",106
+"Freak Out!","",106
+"200 Motels,Bootleg","",106
+"Uncle Meat","",106
+"Zoot Allures","",106
+"Roxy & Elsewhere","",106
+"Joe's Garage Act I","",106
+"Just Another Band From L.A.","",106
+"We're Only In It For the Money","",106
+"Apostrophe","",106
+"Fillmore East / June 1971","",106
+"Sleep Dirt","",106
+"Sheik Yerbouti","",106
+"Orchestral Favorites","",106
+"Weasels Ripped My Flesh","",106
+"Joe's Garage Acts II & III","",106
+"Studio Tan","",106
+"Absolutely Free","",106
+"200 Motels","",106
+"Excitable Boy","",107
+"Bad Luck Streak in Dancing School","",107
+"Greatest Hits","",96
+"Foreigner","",96
+"Currents","",97
+"At the Candlelight Café","",98
+"Best of Traffic","",99
+"John Barleycorn Must Die","",99
+"Happy Together","",100
+"The Greatest Jazz Concert in the World","",101
+"Dances of the Renaissance","",101
+"Gothic and Renaissance Dances","",101
+"West Side Story Soundtrack","",101
+"20 Rockin' Originals","",101
+"West Side Story Movie Soundtrack","",101
+"The Sound of Music Soundtrack","",101
+"Bach: The Complete Flute Sonatas","",101
+"Small Change","",102
+"Nighthawks at the Diner","",102
+"Who's Next","",103
+"Vaughan Williams Concert","",104
+"In 3-D","",105
+"Hot Rats","",106
+"The Grand Wazoo","",106
+"Overnite Sensation","",106
+"Lumpy Gravy","",106
+"Waka/Jawaka","",106
+"In New York","",106
+"You Are What You Is","",106
+"Bongo Fury","",106
+"The Man From Utopia","",106
+"Burnt Weeny Sandwich","",106
+"One Size Fits All","",106
+"Chunga's Revenge","",106
+"Freak Out!","",106
+"200 Motels,Bootleg","",106
+"Uncle Meat","",106
+"Zoot Allures","",106
+"Roxy & Elsewhere","",106
+"Joe's Garage Act I","",106
+"Just Another Band From L.A.","",106
+"We're Only In It For the Money","",106
+"Apostrophe","",106
+"Fillmore East / June 1971","",106
+"Sleep Dirt","",106
+"Sheik Yerbouti","",106
+"Orchestral Favorites","",106
+"Weasels Ripped My Flesh","",106
+"Joe's Garage Acts II & III","",106
+"Studio Tan","",106
+"Absolutely Free","",106
+"200 Motels","",106
+"Excitable Boy","",107
+"Bad Luck Streak in Dancing School","",107

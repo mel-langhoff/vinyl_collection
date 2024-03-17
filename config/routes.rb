@@ -7,7 +7,16 @@ Rails.application.routes.draw do
 
   get "/", to: "artists#index"
 
-  resources :artists, only: [:index, :show]
+  resources :artists, only: [:index, :show] do
+    collection do
+      get :search, to: "artists#search"
+    end
+  end
+  resources :albums, only: [:index] do
+    collection do
+      get :search, to: "albums#search"
+    end
+  end
 
   # root "artists#index"
 end

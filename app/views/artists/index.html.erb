@@ -1,5 +1,6 @@
 <h1>Vinyls by Artist</h1>
 
+<h2>All Artists</h2>
 <ul>
   <% @artists.each do |artist| %>
     <li>
@@ -7,3 +8,9 @@
     </li>
   <% end %>
 </ul>
+
+<h2>Search by Artist:</h2>
+<p><%= form_with(url: search_artists_path, method: "get") do |form| %>
+  <%= form.text_field :search, placeholder: "Enter an artist name" %>
+  <%= form.submit "Search" %>
+<% end %>

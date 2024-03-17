@@ -9,4 +9,8 @@ class Artist < ApplicationRecord
   def self.sort_alphabetically
     order(Arel.sql("CASE WHEN array_length(string_to_array(name, ' '), 1) > 1 THEN SPLIT_PART(name, ' ', array_length(string_to_array(name, ' '), 1)) ELSE name END"))
   end  
+
+  def self.search(query)
+    where("name ILIKE ?", "%#{query}%")
+  end
 end

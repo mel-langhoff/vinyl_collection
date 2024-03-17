@@ -1,15 +1,18 @@
 require 'csv'
 
 CSV.foreach(Rails.root.join('db', 'data', 'artists.csv'), headers: true) do |row|
-  Artist.create!(
-    name: row['name']
+  artist = Artist.new(
+    name: row['name'],
+    category: row['category']
   )
+  artist.save
 end
 
 CSV.foreach(Rails.root.join('db', 'data', 'albums.csv'), headers: true) do |row|
-  Album.create!(
+  album = Album.new(
     title: row['title'],
     notes: row['notes'],
     artist_id: row['artist_id']
   )
+  album.save
 end
