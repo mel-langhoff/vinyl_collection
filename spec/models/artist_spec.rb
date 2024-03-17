@@ -6,10 +6,10 @@ RSpec.describe Artist, type: :model do
     it { should have_many(:albums) }
   end
 
-  it '#alphabetical_list' do
-    artist1 = Artist.create(name: 'The Beatles')
-    artist2 = Artist.create(name: 'Bob Dylan')
-    artist3 = Artist.create(name: 'The Rolling Stones')
+  it '#sort_alphabetically' do
+    artist1 = Artist.create(name: 'The Beatles', category: 'Group')
+    artist2 = Artist.create(name: 'Bob Dylan', category: 'Solo')
+    artist3 = Artist.create(name: 'The Rolling Stones', category: 'Group')
 
     sorted_artists = Artist.sort_alphabetically
 

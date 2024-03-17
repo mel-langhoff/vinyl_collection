@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe 'Artist Show Page', type: :feature do
   it 'displays a list of all the artists albums' do
-    beatles = Artist.create(name: 'The Beatles')
+    beatles = Artist.create(name: 'The Beatles', category: 'Group')
     help = Album.create(title: 'Help', artist: beatles)
     rubber_soul = Album.create(title: 'Rubber Soul', artist: beatles)
     abbey_road = Album.create(title: 'Abbey Road', artist: beatles)
