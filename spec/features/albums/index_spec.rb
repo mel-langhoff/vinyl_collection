@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe 'Album Index Page', type: :feature do
   it 'lists all albums' do
-    beatles = Artist.create(name: 'The Beatles')
+    beatles = Artist.create(name: 'The Beatles', category: 'Group')
     help = Album.create(title: 'Help', artist: beatles)
     rubber_soul = Album.create(title: 'Rubber Soul', artist: beatles)
     abbey_road = Album.create(title: 'Abbey Road', artist: beatles)
@@ -15,7 +15,7 @@ RSpec.describe 'Album Index Page', type: :feature do
   end
 
   it 'has a search form and redirects to the results' do
-    beatles = Artist.create(name: 'The Beatles')
+    beatles = Artist.create(name: 'The Beatles', category: 'Group')
     help = Album.create(title: 'Help', artist: beatles)
     rubber_soul = Album.create(title: 'Rubber Soul', artist: beatles)
     abbey_road = Album.create(title: 'Abbey Road', artist: beatles)
@@ -32,7 +32,7 @@ RSpec.describe 'Album Index Page', type: :feature do
   end
 
   it 'returns a no albums found message when no results' do
-    beatles = Artist.create(name: 'The Beatles')
+    beatles = Artist.create(name: 'The Beatles', category: 'Group')
     help = Album.create(title: 'Help', artist: beatles)
     rubber_soul = Album.create(title: 'Rubber Soul', artist: beatles)
     abbey_road = Album.create(title: 'Abbey Road', artist: beatles)
