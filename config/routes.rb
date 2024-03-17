@@ -18,5 +18,13 @@ Rails.application.routes.draw do
     end
   end
 
+  namespace :admin do
+    get '/', to: "dashboards#index"
+
+    resources :artists, only: [:index, :show, :edit, :new, :create]
+
+    resources :albums, only: [:index, :show, :edit, :new, :create]
+  end
+
   # root "artists#index"
 end
